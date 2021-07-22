@@ -1,0 +1,9 @@
+login_case:
+  login_case01:
+    name: "admin"
+    pwd: "123456"
+    code: "TEST"
+  login_case02:
+    name: "DuanD"
+    pwd: "123456"
+    code: "TEST"
