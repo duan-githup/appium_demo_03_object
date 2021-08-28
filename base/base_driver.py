@@ -1,9 +1,11 @@
 
 from appium import webdriver
+from time import sleep
 
 class GetDriver:
 
     driver = None
+
 
     @classmethod
     def init_driver(cls):
@@ -41,6 +43,8 @@ class GetDriver:
 
 
 if __name__ == '__main__':
-    GetDriver.init_driver()
+    driver = GetDriver.init_driver()
+    sleep(3)
+    GetDriver.qiut_driver(driver)
 
 
